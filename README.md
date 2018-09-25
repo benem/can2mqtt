@@ -2,7 +2,7 @@
 Run `./can2mqtt.py -h` to see a list of command line parameters.
 Default is to read configuration from local directory from file `config.json` and log to stdout with level INFO.
 
-# Configuaration
+# Configuration
 Connection to CAN bus is configured in `canbus` section of json config file.
 Connection to MQTT broker is configured in `mqtt` section.
 Translation of CAN messages to MQTT is configured in `receivers` section.
